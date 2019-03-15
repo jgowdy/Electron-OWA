@@ -18,6 +18,24 @@
     "electron-builder": "^20.39.0"
   },
   "build": {
+    "appId": "ElectronOWA",
+    "mac": {
+      "icon": "assets/img/icon/icon.icns"
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x":240,
+          "y":150,
+          "type":"link",
+          "path":"/Applications"
+        }
+      ]
+    },
     "win": {
       "icon": "assets/img/icon/icon.ico"
     }
