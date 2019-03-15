@@ -1,0 +1,25 @@
+{
+  "name": "OWA",
+  "version": "0.1.0",
+  "description": "Outlook Web App Electron Package",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "OWA"
+  ],
+  "author": "Cam Murray",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^4.0.2",
+    "electron-builder": "^20.39.0"
+  },
+  "build": {
+    "win": {
+      "icon": "assets/img/icon/icon.ico"
+    }
+  }
+}
